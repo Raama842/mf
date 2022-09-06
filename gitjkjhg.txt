@@ -1,1 +1,2 @@
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+git remote set-url origin https://<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>@github.com/Raama842/mf.git
