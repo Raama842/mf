@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding-top:609px;
+}
+nav{
+    top:0px;
+    left:0px;
+    width: 1515px;
+    height:500px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:white;
+    border-bottom: 1px;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(./images/girl.jpg);
+    background-size: cover;
+    background-position: center;  
+    margin-top:-609px ;
+}
+nav .logo{
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 80px;
+    float:left;
+    font-size: 25px;
+    font-weight:bold;
+    color: white;
+    font-family: 'Calligraffitti', cursive;
+}
+nav .logo1{
+    padding-top: 10px;
+    padding-left: 1px;
+    height: 80px;
+    float:left;
+    font-size: 25px;
+    font-weight:900;
+    color: white;
+    font-family:sans-serif;
+}
+nav ul{
+    list-style: none;
+    float:right;
+    margin: 0;
+    padding-right:50px;
+    display: flex; 
+    margin-top:-10px;
+}
+nav ul li a  {
+    line-height: 80px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.about{
+    padding-right: 25px;
+}
+
+.dropbtn{
+    margin-top: 29px;
+    background-color: none;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    font-size:15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+  .dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown-content a
+{
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+  h1
+{
+   margin-top: 110px;
+   margin-left: 50px;
+   font-size: 45px;
+   color: white;
+   margin-bottom: 0px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  .comeon
+{
+    margin-top: 14px;
+    background:rgb(69, 138, 235);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    width:170px;
+    height:40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 12px;
+}
+  .for
+{
+    margin-right: 350px;
+}
+.signin
+{
+padding-left:0px;
+}
+.serchbar
+{
+    margin-left: 50px;
+    margin-top:20px;
+    height: 80px;
+    width: 570px; 
+    background:rgb(255, 251, 251);
+    border-radius: 50px;
+}
+.search
+{
+    width: 250px;
+    border: 0;
+    outline: 10px;
+    font-size: 19px;
+    color:black;
+    margin-left: 60px;
+    margin-top: 29px;
+    text-align:left;
+    margin-right: 0px;
+    background-color:white;
+}
+.icons{
+    margin-left:487px;
+    margin-top: -47px;
+    font-size: 25px;
+    background-color: rgba(45, 149, 197, 0.98);
+    border-radius:50px;
+    width:75px;
+    height: 45px;
+    text-align: center;
+    padding-top: 24px;
+    color: rgba(255, 255, 255, 0.94);
+}
+.cnumber{
+    width: 70px;
+    margin-left: +20px;
+    color: blue;
+    font-size: 15px;
+    border: 0;
+    outline:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.cnumber option{
+    color: black;
+}
+.playstore{
+    text-decoration: none;
+}
+.playstore1{
+    margin-top: 30px;
+    margin-left:50px;
+    border-radius:50px;
+    color: black;
+    height: 60px;
+    width: 180px;
+    background-color: white;
+}
+.aa{
+       margin-left: 60px;
+       margin-top:-34px;
+       font-weight:50;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 12px;
+       letter-spacing: 1px;
+}
+.rating{
+    margin-left: 60px;
+    font-weight: bold;
+    font-weight:50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.playi{
+    margin-left:20px;
+    margin-top: 20px;
+}
+.appstore{
+    text-decoration: none;
+}
+.appstore1{
+    margin-top: -60px;
+    margin-left:240px;
+    color: black;
+    height: 60px;
+    width: 180px;
+    background-color: white;
+    border-radius:50px;
+}
+.bb{
+    margin-left: 64px;
+    margin-top: -34px;
+    font-weight:50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.rating1{
+    margin-left:64px;
+    font-weight: bold;
+    font-weight:50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.appi{
+    margin-left: 20px;
+    margin-top:15px;
+}
+.downl{
+    text-decoration: none;
+}
+.downl1{
+    margin-left: 431px;
+    margin-top:-61px;
+    color: black;
+    height: 60px;
+    width: 180px;
+    background-color: white;
+    border-radius:50px;
+}
+.cc{
+    margin-left: 58px;
+    margin-top: -25px;
+    font-weight:50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.down2{
+    margin-top: 18px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+.gadgetsnow{
+    margin-top: 50px;
+    margin-left: 260px;
+}
+.newyorkpost
+{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.charmander{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+}
+.charmelion{
+    margin-left: 200px;
+    width: 250px;
+    height: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.charizard{
+    margin-top:-350px;
+    margin-left:450px;
+    width: 300px;
+    height: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.swampert{
+    margin-left:750px;
+    margin-top:-350px;
+    width: 300px;
+    height: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mewtow{
+    margin-left:1040px;
+    margin-top:-350px;
+    width: 400px;
+    height: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.venusar{
+    margin-left: 200px;
+    margin-top:50px;
+}
+.bulbasur1{
+    margin-left:-42px;
+}
+.bulbasur{
+    width:480px;
+    height:70px;
+    margin-left:2px;
+}
+.hmm{
+    margin-top: 20px;
+    margin-left: 20px
+}
+.bulbasur1 li:hover{
+    cursor: pointer;
+    background-color:white;
+}
+.meganium{
+    margin-left: 850px;
+    margin-top:-550px;
+}
